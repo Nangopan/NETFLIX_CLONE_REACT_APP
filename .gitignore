@@ -1,3 +1,10 @@
+/**
+ * Git does not track empty directories. If `src` has no tracked files,
+ * it will not appear in the repository history or on GitHub.
+ * 
+ * To keep the directory, add a placeholder file like `.gitkeep` (or any file),
+ * then commit and push. This ensures `src` is tracked even if currently empty.
+ */
 # Logs
 logs
 *.log
